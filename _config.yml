@@ -1,11 +1,11 @@
 # Site settings
-author: Emery K Lumsden II
-title: 
+author: Emery Kurt
+title: Makeup in Tech
 header-img: img/home-bg.png
 email: emerylumsden@gmail.com
-copyright_name: Emery K Lumsden II
+copyright_name: Emery Kurt
 description: > # this means to ignore newlines until "baseurl:"
-  
+  The comprehensive life of a Makeup Artist gone Tech.
 baseurl: "" # the subpath of your site, e.g. /blog
 twitter_username: 
 github_username:  emerykurt
