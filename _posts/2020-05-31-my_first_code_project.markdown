@@ -12,5 +12,5 @@ I am quite proud of myself. I felt like I was not going to do good because its t
 You know what, I was going to give a very cookie cutter post about this project but to be honest, I am super proud of myself. I spent a lot of project week not only dealing with imposter syndrome, but try to encourage myself to keep going. With everything going on in the world it was tough to figure out the point. When you spend your life watching tv and the only time you see someone who looks like you (a dark skin black man) are on the news, getting shot, getting harassed. It make you wonder what are you doing this for. I am a target not because of my actions, but because of what I look like. I am proud of this project, because of the mental perseverance it to get through it. I have found a serenity in this thing called code, and I hope you like!
 
 - Emery K
-- 
+
 # CLI Project 
