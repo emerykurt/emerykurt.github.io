@@ -12,4 +12,4 @@ You know what, I was going to give a very cookie cutter post about this project 
 
 - Emery
 
-https://github.com/emerykurt/cli_whats_your_foundation_type/blob/master/README.md
+# CLI Project 
