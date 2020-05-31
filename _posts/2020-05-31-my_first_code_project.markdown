@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "My FIRST code project! "
-date:       2020-05-31 11:44:19 +0000
+date:       2020-05-31 07:44:20 -0400
 permalink:  my_first_code_project
 ---
 
@@ -12,4 +12,4 @@ You know what, I was going to give a very cookie cutter post about this project 
 
 - Emery
 
-[]https://github.com/emerykurt/cli_whats_your_foundation_type/blob/master/README.md(http://)
+https://github.com/emerykurt/cli_whats_your_foundation_type/blob/master/README.md
