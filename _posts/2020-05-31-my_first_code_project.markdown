@@ -7,7 +7,7 @@ permalink:  my_first_code_project
 
 
 
-![](<blockquote class="imgur-embed-pub" lang="en" data-id="a/dKxmjvI" data-context="false" ><a href="//imgur.com/a/dKxmjvI"></a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>)
+![](http://i.ibb.co/Z1ZxNJY/IMG-0205.jpg)
 
 
 
