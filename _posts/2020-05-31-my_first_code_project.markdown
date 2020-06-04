@@ -7,9 +7,9 @@ permalink:  my_first_code_project
 
 
 
-![](https://imgur.com/3wnlTgC)
+![](http://imgur.com/3wnlTgC)
 
- [Project Link:](https://github.com/emerykurt/cli_whats_your_foundation_type)
+[Project Link](http://github.com/emerykurt/cli_whats_your_foundation_type)
 
 I am quite proud of myself. I felt like I was not going to do good because its the fear of the unexpected. It definitely played with the feeling of imposter syndrome. 
 
