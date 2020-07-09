@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Sinatra Project (BlackIn)"
-date:       2020-07-09 17:50:10 +0000
+date:       2020-07-09 13:50:11 -0400
 permalink:  sinatra_project_blackin
 ---
 
