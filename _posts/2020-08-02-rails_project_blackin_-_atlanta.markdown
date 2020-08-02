@@ -87,4 +87,6 @@ So not only did it create our `UserController` but we now have routes for create
 
 The foundation for MVC and our rails app has now been created in a matter of minutes and now it is all about customizing to your needs. 
 
+I hope you enjoy my project: [BlackIn ATL](https://github.com/emerykurt/blackinatlapp)
+
 Happy Coding!
