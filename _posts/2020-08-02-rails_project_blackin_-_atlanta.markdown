@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Rails Project (BlackIn - Atlanta)"
-date:       2020-08-02 19:54:55 +0000
+date:       2020-08-02 15:54:56 -0400
 permalink:  rails_project_blackin_-_atlanta
 ---
 
