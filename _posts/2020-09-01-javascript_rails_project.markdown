@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "JavaScript/Rails Project !"
-date:       2020-09-01 04:18:01 +0000
+date:       2020-09-01 00:18:02 -0400
 permalink:  javascript_rails_project
 ---
 
@@ -47,5 +47,31 @@ Notice the slight, but magical difference........have you seen it yet. If you ha
 end```
 
 Ratings `belongs_to` Company so this line code interates through each rating and pulls out it's company association WITH its information. It's the small details that make a difference on a sight. 
+
+
+A big focus for me was understanding constructors and static methods. (They are the reason why project works.) Constructor method is a unique method that creates and initialize an object created in the class. Classes are similar to classes in Ruby. In javascript function declarations are hoisted and class declarations are not. You have to call class functions for them to run. Static functions are called without instantiation and they also can't be called through a class instance. That is not even the toughest part. The challenge if you are not careful (of course I wasn't) is that if you want to pass an object you must call a method to find it. Which ultimately means you have to create that method as well. Here is an example:
+
+```static handleReviewClicks = (e) => {
+        // debugger
+        if (e.target.className === "update"){
+            let id = e.path[0].dataset.id
+            Ratings.findById(id)
+        }
+    }``` 
+		
+```static findById = (e) => {
+            // debugger
+            fetch(`http://localhost:3000/ratings/${e}`)
+            .then(res => res.json().then(json =>{
+                let rating = new Ratings(json.data)
+                rating.updateReview(json.data)
+            }))
+    }```
+		
+		```updateReview = (e) => { ${insert code here} } ```
+
+As you can see an extra step was implemented, but it really expresses the magic of static methods.
+		
+		
 
 Checkout my project [here](https://github.com/emerykurt/companyclick/tree/oo-version)!
