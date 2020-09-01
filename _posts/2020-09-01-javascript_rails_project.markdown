@@ -29,16 +29,17 @@ There was an important factor when thinking about #JavaScript you have to setup 
   include FastJsonapi::ObjectSerializer
   attributes :id, :name, :hq_city, :hq_state, :mission_statement, :website, :twitter
   has_many :ratings
-end``` 
+end```
 
 ```class RatingSerializer
   include FastJsonapi::ObjectSerializer
-  attributes :id, :process, :lifestyle, :compensation, :mentorship, :diversity, :fname, :lname, :bootcamp, :city, :state, :company_id
+  attributes :id, :process, :lifestyle, :compensation, :mentorship, :diversity, :fname, :lname, :bootcamp, :city, :state, :company_id```
   
-  attribute :company do |object|
+  ```attribute :company do |object|
     CompanySerializer.new(object.company)
   end
 end```
+
 Notice the slight, but magical difference........have you seen it yet. If you haven't let me specify what I am talking about.
 
 ```attribute :company do |object|
