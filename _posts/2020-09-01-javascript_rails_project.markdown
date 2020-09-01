@@ -31,11 +31,12 @@ There was an important factor when thinking about #JavaScript you have to setup 
   has_many :ratings
 end```
 
+Not too hard to digest right???
+
 ```class RatingSerializer
   include FastJsonapi::ObjectSerializer
-  attributes :id, :process, :lifestyle, :compensation, :mentorship, :diversity, :fname, :lname, :bootcamp, :city, :state, :company_id```
-  
-  ```attribute :company do |object|
+  attributes :id, :process, :lifestyle, :compensation, :mentorship, :diversity, :fname, :lname, :bootcamp, :city, :state, :company_id
+	attribute :company do |object|
     CompanySerializer.new(object.company)
   end
 end```
