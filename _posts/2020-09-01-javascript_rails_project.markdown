@@ -25,7 +25,7 @@ There was an important factor when thinking about #JavaScript you have to setup 
 	
 	Another thing that is important is setting up your serializers and how you call them. The setup in my project looked a little like:
 	
-	```class CompanySerializer
+```class CompanySerializer
   include FastJsonapi::ObjectSerializer
   attributes :id, :name, :hq_city, :hq_state, :mission_statement, :website, :twitter
   has_many :ratings
