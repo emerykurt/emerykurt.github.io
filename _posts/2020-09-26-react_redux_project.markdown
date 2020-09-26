@@ -17,19 +17,68 @@ Honestly, its more intimidating than it looks. The meaning is in the name. You a
 ```
 const mapStateToProps = (state) => {
     return{ 
-        companies: state.companies,
         search: ' '
+				companies: state.companies,
     }
 }
 ```
 
-```companies: state.companies``` is providing the prop with information that has come from your redux.
 ```search: ' '``` allows you to update your local state that will activate a render based on the code you have added.
+```companies: state.companies``` is providing the prop with information that has come from your redux.
 
-There goes the word that holds all the magic #Redux!
+There goes the word that holds all the magic #Redux! Redux really is like the circle of info.
 
-![](http://res.cloudinary.com/practicaldev/image/fetch/s--VtRaY29J--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://thepracticaldev.s3.amazonaws.com/i/fewc8ez6r2e2agah717y.png/)
+![](http:////imgur.com/DadA3PH)
+
+Your #Action which would be your #Fetch from API, return a promise, convert the promise int a readable JSON, then it dispatch to you #Reducers. 
+
+```
+export const fetchCompanies = () => {
+    return(dispatch) => {
+        return fetch('http://localhost:3000/companies')
+        .then(res => res.json())
+        .then( (json) => {
+            dispatch({type:"SET_COMPS", payload: json.data})
+        })
+
+    }
+}
+```
+
+In the reducer (based upon the dispatch type it will change the state of your container.
+
+```
+export default (state = [], action) => {
+    // debugger
+    switch(action.type){
+        case "SET_COMPS":
+            return [...action.payload];
+        case "ADD_COMPS":
+                return [...state, action.payload];
+        case "SEARCH":{
+            // debugger
+            const {value} = action
+            const companies = state.filter((company) => company.attributes.name.includes(value))
+            return {...companies}
+        } 
+        default:
+            return state;
+    }
+}
+```
+
+Guess where it takes you??
+
+![](http:////imgur.com/qPU8oXH)
 
 
+`mapStateToProps`
+
+![](http:////imgur.com/a/9gfoZ)
+
+
+Check out my full frontend code at:
 [Code](https://github.com/emerykurt/tech-tribe)
+
+Watch a live demo of my app at:
 [Video](https://youtu.be/6ZTHB4hdLxw)
