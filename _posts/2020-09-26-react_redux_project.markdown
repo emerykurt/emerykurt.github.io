@@ -11,7 +11,6 @@ Thee final project! We are here! You probably will see a lot of exclamation poin
 
 Speaking of what I learned, let's go ahead and start with `mapStateToProps`
 
-!(https://24.media.tumblr.com/tumblr_m3zr6yfRkq1rswsrbo1_500.gif/)
 
 Honestly, its more intimidating than it looks. The meaning is in the name. You are MAPPING the STATE to PROPS. For example:
 
