@@ -72,7 +72,7 @@ Guess where it takes you??
 ![](http:////imgur.com/qPU8oXH)
 
 
-`mapStateToProps`
+`mapStateToProps` (MIND BLOWN!!)
 
 ![](http:////imgur.com/a/9gfoZ)
 
