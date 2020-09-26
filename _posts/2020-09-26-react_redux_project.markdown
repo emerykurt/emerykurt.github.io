@@ -28,7 +28,7 @@ const mapStateToProps = (state) => {
 
 There goes the word that holds all the magic #Redux!
 
-!(https://res.cloudinary.com/practicaldev/image/fetch/s--VtRaY29J--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://thepracticaldev.s3.amazonaws.com/i/fewc8ez6r2e2agah717y.png/)
+![](http://res.cloudinary.com/practicaldev/image/fetch/s--VtRaY29J--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://thepracticaldev.s3.amazonaws.com/i/fewc8ez6r2e2agah717y.png/)
 
 
 [Code](https://github.com/emerykurt/tech-tribe)
