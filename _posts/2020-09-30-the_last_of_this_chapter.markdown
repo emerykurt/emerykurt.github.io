@@ -12,37 +12,37 @@ I am have completed my Final Assesment! Which means:
 
 ```
 export class FinalBlog extends Component{
-   state = {
-			   topic: ' ',
-				 title: ' ',
-				 paragraph: ' ',
-				 conclusion: ' ',
-			 }
-			 
-			 addTopic = ( ) => {
-        this.setState({
-            topic:  ' Final Blog '
-        })
-       }
-			 
-			 addTopic = ( ) => {
-        this.setState({
-            title: ' The Last of {this.chapter}'
-        })
-       }
-			 
-			 addTopic = ( ) => {
-        this.setState({
-            paragraph: 'I am using this function to write my blog. It is like a silent blog because the code speaks for it self. ' 
-        })
-       }
-			 
-			 addTopic = ( ) => {
-        this.setState({
-            conclusion:  'If you put this in your code you will get the blog, once you console.log your state'
-        })
-       }
-			 
-			 console.log(this.state) 
-}
+    state = {
+        topic: ' ',
+        title: ' ',
+        paragraph: ' ',
+        conclusion: ' ',
+              }
+              
+        addTopic = ( ) => {
+         this.setState({
+             topic:  ' Final Blog '
+         })
+        }
+              
+        addTopic = ( ) => {
+         this.setState({
+             title: ' The Last of {this.chapter}'
+         })
+        }
+              
+        addTopic = ( ) => {
+         this.setState({
+             paragraph: 'I am using this function to write my blog. It is like a silent blog because the code speaks for it self. ' 
+         })
+        }
+              
+        addTopic = ( ) => {
+         this.setState({
+             conclusion:  'If you put this in your code you will get the blog, once you console.log your state'
+         })
+        }
+              
+        console.log(this.state) 
+ }
 ```
