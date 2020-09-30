@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "The Last of {this.chapter}"
-date:       2020-09-30 19:38:01 +0000
+date:       2020-09-30 15:38:01 -0400
 permalink:  the_last_of_this_chapter
 ---
 
@@ -12,11 +12,11 @@ I am have completed my Final Assesment! Which means:
 
 ```
 export class FinalBlog extends Component{
-       state = {
-			        topic: ' ',
-							title: ' ',
-							paragraph: ' ',
-							conclusion: ' ',
+   state = {
+			   topic: ' ',
+				 title: ' ',
+				 paragraph: ' ',
+				 conclusion: ' ',
 			 }
 			 
 			 addTopic = ( ) => {
